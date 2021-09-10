@@ -65,60 +65,60 @@ class _HomeDesktopState extends State<HomeDesktop> {
                     SizedBox(
                       height: 75,
                     ),
-                    Row(
-                      children: <Widget>[
-                        Expanded(child: TwoDesk()),
-                        Expanded(child: SkillsLogoDesk()),
-                      ],
-                    ),
-                    SizedBox(
-                      height: 75,
-                    ),
-                    Row(
-                      children: <Widget>[
-                        Expanded(child: SkillBarDesk()),
-                        Expanded(child: ThreeDesk()),
-                      ],
-                    ),
-                    SizedBox(
-                      height: 75,
-                    ),
-                    Row(
-                      children: [
-                        Expanded(child: EducationDesk()),
-                      ],
-                    ),
-                    SizedBox(
-                      height: 75,
-                    ),
-                    Row(
-                      children: [
-                        Expanded(child: AchievementDesk()),
-                      ],
-                    ),
-                     SizedBox(
-                      height: 75,
-                    ),
-                    Row(
-                      children: [
-                        Expanded(child: BlogCenterDesk()),
-                      ],
-                    ),
-                     SizedBox(
-                      height: 75,
-                    ),
-                     Row(
-                      children: [
-                        Expanded(child: ContactCenterDesk()),
-                        Expanded(child: FourDesk(),),
-                      ],
-                    ),
-                    SizedBox(height: 100,),
-                    Row(
-                      children: [
-                        Expanded(child: FooterPage()),
-                      ],
-                    ),
+                    // Row(
+                    //   children: <Widget>[
+                    //     Expanded(child: TwoDesk()),
+                    //     Expanded(child: SkillsLogoDesk()),
+                    //   ],
+                    // ),
+                    // SizedBox(
+                    //   height: 75,
+                    // ),
+                    // Row(
+                    //   children: <Widget>[
+                    //     Expanded(child: SkillBarDesk()),
+                    //     Expanded(child: ThreeDesk()),
+                    //   ],
+                    // ),
+                    // SizedBox(
+                    //   height: 75,
+                    // ),
+                    // Row(
+                    //   children: [
+                    //     Expanded(child: EducationDesk()),
+                    //   ],
+                    // ),
+                    // SizedBox(
+                    //   height: 75,
+                    // ),
+                    // Row(
+                    //   children: [
+                    //     Expanded(child: AchievementDesk()),
+                    //   ],
+                    // ),
+                    //  SizedBox(
+                    //   height: 75,
+                    // ),
+                    // Row(
+                    //   children: [
+                    //     Expanded(child: BlogCenterDesk()),
+                    //   ],
+                    // ),
+                    //  SizedBox(
+                    //   height: 75,
+                    // ),
+                    //  Row(
+                    //   children: [
+                    //     Expanded(child: ContactCenterDesk()),
+                    //     Expanded(child: FourDesk(),),
+                    //   ],
+                    // ),
+                    // SizedBox(height: 100,),
+                    // Row(
+                    //   children: [
+                    //     Expanded(child: FooterPage()),
+                    //   ],
+                    // ),
                     
                   ],
                 ),
@@ -146,14 +146,14 @@ class HomeMobile extends StatelessWidget {
               children: <Widget>[
                 WelcomePageMob(),
                 OneMob(),
-                SkillsMob(),
-                ProgressPage(),
-                EducationMob(),
-                AchievementMob(),
-                BlogCenterMob(),
-                ContactCenterMob(),
-                SizedBox(height: 50,),
-                FooterPage()
+                // SkillsMob(),
+                // ProgressPage(),
+                // EducationMob(),
+                // AchievementMob(),
+                // BlogCenterMob(),
+                // ContactCenterMob(),
+                // SizedBox(height: 50,),
+                // FooterPage()
               ],
             ),
           ),
@@ -177,15 +177,15 @@ class HomeTab extends StatelessWidget {
                     physics: NeverScrollableScrollPhysics(),
               children: <Widget>[
                 WelcomePageTab(),
-                OneTab(),
-                SkillsTab(),
-                ProgressPage(),
-                EducationTab(),
-                AchievementTab(),
-                BlogCenterTab(),
-                ContactCenterTab(),
-                SizedBox(height: 50,),
-                FooterMob(),
+                // OneTab(),
+                // SkillsTab(),
+                // ProgressPage(),
+                // EducationTab(),
+                // AchievementTab(),
+                // BlogCenterTab(),
+                // ContactCenterTab(),
+                // SizedBox(height: 50,),
+                // FooterMob(),
               ],
             ),
           ),

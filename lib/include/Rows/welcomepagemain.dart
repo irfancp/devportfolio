@@ -12,12 +12,12 @@ class WelcomePageDesk extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: <Widget>[
-          Text("Hi ! I'm Naveen Jujaray", 
+          Text("Hi ! I'm Irfan", 
           style: TextStyle(fontWeight: FontWeight.w800, height: 1.3, fontSize: 50),
           textAlign: TextAlign.center,
           ),
           SizedBox(height: 30,),
-          Text("I help out Spider-man with his web slingers, or you could call me a web designer.", 
+          Text("A passionate Flutter Developer 🚀 having an experience of building quality mobile applications.", 
           style: TextStyle(fontSize: 21,height: 1.7,),
           textAlign: TextAlign.center,
           ),
@@ -28,90 +28,52 @@ class WelcomePageDesk extends StatelessWidget {
                 Expanded(
                                   child: Container( width: 60,height: 60,
                     child: IconButton(
-                      icon: Icon(FontAwesomeIcons.facebook, color: Colors.blue, size: 40,),
+                      icon: Icon(FontAwesomeIcons.linkedin, color: Colors.blue, size: 40,),
                        onPressed:  () 
                         {
-                       js.context.callMethod("open", ["https://www.facebook.com/naveenjujaray"]);
+                       js.context.callMethod("open", ["https://www.linkedin.com/in/irfan-cp"]);
                        },
                        )),
                 ),
                 Expanded(
                                   child: Container( width: 60,height: 60,
                     child:  GestureDetector(
-                      child: Icon(FontAwesomeIcons.twitter, color: Colors.lightBlue, size: 40,),
+                      child: Icon(FontAwesomeIcons.stackOverflow, color: Colors.lightBlue, size: 40,),
                       onTap: () {
-                       js.context.callMethod("open", ["https://twitter.com/naveenjujaray"]);
+                       js.context.callMethod("open", ["https://stackoverflow.com/users/15105824/icp"]);
                        },
                       ),
                        ),
                 ),
-                Expanded(
-                                  child: Container( width: 60,height: 60,
-                    child: IconButton(
-                      icon: Icon(FontAwesomeIcons.linkedin, color: Color.fromRGBO(40,103,178,1), size: 40, ),
-                       onPressed: ()
-                       {
-                       js.context.callMethod("open", ["https://www.linkedin.com/in/naveenjujaray"]);
-                       },
-                       )),
-                ),
-                Expanded(
-                                  child: Container( width: 60,height: 60,
-                    child: IconButton(
-                      icon: Icon(FontAwesomeIcons.bloggerB, color: Colors.red, size: 40,),
-                       onPressed: ()
-                       {
-                       js.context.callMethod("open", ["https://naveenjujaray.js.org"]);
-                       },
-                       )),
-                ),
+          
                 Expanded(
                                   child: Container( width: 60,height: 60,
                     child: IconButton(
                       icon: Icon(FontAwesomeIcons.github, size: 40,), 
                       onPressed: ()
                       {
-                       js.context.callMethod("open", ["https://www.github.com/naveenjujaray"]);
+                       js.context.callMethod("open", ["https://github.com/irfancp"]);
                        },
                       )),
                 ),
+  
                 Expanded(
                                   child: Container( width: 60,height: 60,
                     child: IconButton(
-                      icon: Icon(FontAwesomeIcons.gitlab, color: Colors.orange, size: 40,), 
+                      icon: Icon(FontAwesomeIcons.google,size: 40,), 
                       onPressed: ()
                       {
-                       js.context.callMethod("open", ["https://www.gitlab.com/naveenjujaray"]);
-                       },
-                      )),
-                ),
-                Expanded(
-                                  child: Container( width: 60,height: 60,
-                    child: IconButton(
-                      icon: Icon(FontAwesomeIcons.medium, size: 40,), 
-                      onPressed: ()
-                      {
-                       js.context.callMethod("open", ["https://medium.com/@naveenjujaray"]);
+                       js.context.callMethod("open", []);
                        },
                        )),
                 ),
                 Expanded(
                                   child: Container( width: 60,height: 60,
                     child: IconButton(
-                      icon: Icon(FontAwesomeIcons.dev,size: 40,), 
+                      icon: Icon(FontAwesomeIcons.instagram, color: Colors.deepOrangeAccent,size: 40,), 
                       onPressed: ()
                       {
-                       js.context.callMethod("open", ["https://dev.to/naveenjujaray"]);
-                       },
-                       )),
-                ),
-                Expanded(
-                                  child: Container( width: 60,height: 60,
-                    child: IconButton(
-                      icon: Icon(FontAwesomeIcons.reddit, color: Colors.deepOrangeAccent,size: 40,), 
-                      onPressed: ()
-                      {
-                       js.context.callMethod("open", ["https://www.reddit.com/user/jujaraynaveen"]);
+                       js.context.callMethod("open", []);
                        },
                        )),
                 ),

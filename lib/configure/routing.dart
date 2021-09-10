@@ -30,27 +30,27 @@ Route<dynamic> generateRoute(RouteSettings settings) {
         tablet: CenteredViewTab(child: SkillsPage()),
         mobile: CenteredViewMob(child: SkillsPage()),
       ), settings.name);
-    case ProjectsRoute:
-      return _getPageRoute(
-        ScreenTypeLayout(
-      desktop: CenteredViewDesk(child: BlogPage(),),
-      tablet: CenteredViewTab(child: BlogPage(),),
-      mobile: CenteredViewMob(child: BlogPage(),),
-      ), settings.name);
-    case EducationRoute:
-      return _getPageRoute(
-        ScreenTypeLayout(
-      desktop: CenteredViewDesk(child: EducationDesk(),),
-      tablet: CenteredViewTab(child: EducationTab(),),
-      mobile: CenteredViewMob(child: EducationMob(),),
-      ), settings.name);
-    case AchievementsRoute:
-      return _getPageRoute(
-        ScreenTypeLayout(
-          desktop: CenteredViewDesk(child: AchievementsPage()),
-          tablet: CenteredViewTab(child: AchievementsPage()),
-          mobile: CenteredViewMob(child: AchievementsPage()),
-        ), settings.name);
+    // case ProjectsRoute:
+    //   return _getPageRoute(
+    //     ScreenTypeLayout(
+    //   desktop: CenteredViewDesk(child: BlogPage(),),
+    //   tablet: CenteredViewTab(child: BlogPage(),),
+    //   mobile: CenteredViewMob(child: BlogPage(),),
+    //   ), settings.name);
+    // case EducationRoute:
+    //   return _getPageRoute(
+    //     ScreenTypeLayout(
+    //   desktop: CenteredViewDesk(child: EducationDesk(),),
+    //   tablet: CenteredViewTab(child: EducationTab(),),
+    //   mobile: CenteredViewMob(child: EducationMob(),),
+    //   ), settings.name);
+    // case AchievementsRoute:
+    //   return _getPageRoute(
+    //     ScreenTypeLayout(
+    //       // desktop: CenteredViewDesk(child: AchievementsPage()),
+    //       // tablet: CenteredViewTab(child: AchievementsPage()),
+    //       // mobile: CenteredViewMob(child: AchievementsPage()),
+    //     ), settings.name);
     case ContactRoute:
       return _getPageRoute(
         ScreenTypeLayout(
